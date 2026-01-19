@@ -11,7 +11,6 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('punkt_tab')
 
-
 # Preprocess datasets and extract features
 def extract_features(words):
     return {word: True for word in words}
